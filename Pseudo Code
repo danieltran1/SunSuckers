@@ -1,0 +1,45 @@
+Motor1 = x-axis
+Motor2 = y-axis
+Motor3 = rotational z-axis
+
+This program measures the most power at varied angles that the 
+solar panel absorbs and positions the mechanism to those optimum points. 
+{
+Loop Setup
+
+for element to 360 degrees
+
+}
+
+{
+In the main function loop
+
+turn on Motor1 CW until panel is 60 degrees
+{
+	while Motor3 angle is less than 360 degrees
+	
+		rotate Motor3 1 degree
+			measure and store voltage data in array
+}
+
+check max voltage in array 
+check correlating element with max volatage
+
+rotate motor3 to degree of max voltage element
+
+{
+	while Motor1 is less than 60 degrees
+		
+		rotate Motor1 1 degree
+			measure and store voltage data in array
+}
+
+check max voltage in array
+check correlating element with max voltage
+
+rotate Motor1 to degree of max voltage element
+
+delay (30 min)
+
+
+}
